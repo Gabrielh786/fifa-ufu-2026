@@ -1,11 +1,11 @@
-import type { FifaState } from './fifaEngine';
-import { defaultFifaState } from './fifaEngine';
+import type { FifaState } from './fifaEngine.ts';
+import { defaultFifaState } from './fifaEngine.ts';
 import {
   OFFICIAL_FIFA_MALE_SLOTS,
   OFFICIAL_FIFA_FEMALE_SLOTS,
   OFFICIAL_FIFA_MALE_ATHLETES,
   OFFICIAL_FIFA_FEMALE_ATHLETES,
-} from '../data/fifaData2026';
+} from '../data/fifaData2026.ts';
 
 export const DEFAULT_FIFA_CLOUD_URL =
   'https://olimpiadas-ufu-default-rtdb.firebaseio.com/fifa_live_2026.json';
